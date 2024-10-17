@@ -1,0 +1,65 @@
+/* Styling for the calculator component */
+.calculator-container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.calculator-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.calculator-input {
+  width: 45%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  text-align: center;
+}
+
+.calculator-input:focus {
+  border-color: #007bff;
+}
+
+.button-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calculator-button {
+  width: 22%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculator-button:hover {
+  background-color: #0056b3;
+}
+
+.result-section {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
